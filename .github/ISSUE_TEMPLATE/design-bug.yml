@@ -1,0 +1,44 @@
+name: Design bug
+description: Something looks wrong, hard to read, or out of place
+title: "[Design]: "
+labels: ["design", "good first issue"]
+body:
+  - type: dropdown
+    id: screen
+    attributes:
+      label: Which screen?
+      options:
+        - Home (start screen)
+        - Playing (clues and guessing)
+        - Results
+        - Every screen
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What do you see?
+      placeholder: The "Start the clock" text is hard to read on the yellow button.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+      placeholder: Dark text that is easy to read.
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and screen width
+      placeholder: Chrome on a laptop, 1280px wide / iPhone 13, 390px wide
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Drag and drop an image here.
+    validations:
+      required: true
