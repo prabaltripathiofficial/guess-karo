@@ -2,6 +2,8 @@
 
 Guess the character from funny clues. You have **90 seconds**. Every right answer scores points, and the fewer hints you use, the more you get.
 
+**Play it now:** https://guess-karo-eta.vercel.app
+
 > **Learning open source?** This repo is built for practice. The game works, but a few things *look* wrong. Play it, spot a design bug, open an issue, and send a pull request. Start with [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## How to play
